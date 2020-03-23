@@ -14,12 +14,12 @@
     </div>
     <div id="navbar" class="navbar-collapse collapse">
         <ul class="nav navbar-nav navbar-right">
-        <li><a href="/dashboard">Dashboard</a></li>            
+        <li><a href="/dashboard">Dashboard</a></li>
         <li><a href="/">Profile</a></li>
-        </ul>        
+        </ul>
     </div>
     </div>
-</nav>     
+</nav>
 {{-- Bar Button group --}}
 <div class="btn-group btn-group-justified" role="group" aria-label="..." style="margin-top: 50px">
   <div class="btn-group" role="group">
@@ -38,20 +38,40 @@
 {{-- Layout Grid --}}
 <div id="btn-grid" style="border: 1px solid gray; border-radius:5px; float: left; width:200px ;height: 550px; margin: 10px;">
 
+  <button type="button" class="btn btn-primary" style="width: 198px; height: 50px; margin-top: 5px; padding: 0px"> <a href="#" style="color: aliceblue">Order List</a></button>
+    <button type="button" class="btn btn-primary" style="width: 198px; height: 50px; margin-top: 5px; padding: 0px"> <a href="#" style="color: aliceblue">Print KOT</a></button>
+      <button type="button" class="btn btn-primary" style="width: 198px; height: 50px; margin-top: 5px; padding: 0px"> <a href="#" style="color: aliceblue">Modifly Order</a></button>
+        <button type="button" class="btn btn-primary" style="width: 198px; height: 50px; margin-top: 5px; padding: 0px"> <a href="#" style="color: aliceblue">Cancel Order</a></button>
+
 
 </div>
 <div class="left-side" style="border: 1px solid gray; border-radius:5px; float: left; height: 550px; margin: 10px;">
-  <table style="width: 400px;">
+  <table style="width: 485px;">
     <tr>
-      <th colspan="4" style="padding-left: 160px;height: 40px;">Order List</th>
+      <th colspan="4" style="text-align: center; font-weight: bold;height: 40px;">Order List</th>
     </tr>
-    <tr style="width: 150px;background-color: cadetblue;">
-      <span><th style="width: 150px;">Item</th></span>
-      <th>QTY</th>
-      <th>Price</th>
-      <th>Amount</th>
+    <tr style="width: 180px; text-align: center; background-color: darkgray; height: 35px">
+      <span><th style="width: 200px; padding-left: 15px;">Item</th></span>
+      <th style="text-align: center;">QTY</th>
+      <th >Price</th>
+      <th >Amount</th>
+    </tr>
+    <tr style="text-align: center;">
+      <span> <td> Iced Latte</td></span>
+      <td>1</td>
+      <td>2.50$</td>
+      <td>2.50$</td>
     </tr>
   </table>
+  <div class="payment-grib" style="background-color: brown; width: 100%; height: 150px; display: absolute; margin-top: 305px;">
+    <div class="left-box" style="width: 30%; float: left">
+      <p>Total Item : 01</p>
+    </div>
+    <div class="right-box" style="width: 70%; float: right">
+      <div class=""></div>
+    </div>
+
+  </div>
 </div>
 
 <div class="right-side" style="border: 1px solid dimgrey; border-radius:5px; width: 600px; height: 550px; float: right; margin: 10px;">
@@ -61,25 +81,25 @@
     <button type="button" class="btn btn-primary" style="width: 140px; height: 35px; padding: 0px"><h5>Frappe</h5></button>
     <button type="button" class="btn btn-primary" style="width: 140px; height: 35px; padding: 0px"><h5>Bakery</h5></button>
   </div>
-  <div id="image-box">    
+  <div id="image-box">
     <div class="btn-cafe" style="margin-top: 5px;" >
-      <button type="button" class="btn btn-info" style="padding: 0px;width:140px;height: 100px;margin-left: 13px;">Cafe Latte</button> 
-      <button type="button" class="btn btn-info" style="padding: 0px;width:140px;height: 100px;margin-left: 1px;">Americano</button> 
-      <button type="button" class="btn btn-info" style="padding: 0px;width:140px;height: 100px;margin-left: 1px;">Cappuccino</button> 
-      <button type="button" class="btn btn-info" style="padding: 0px;width:140px;height: 100px;margin-left: 1px;">Espresso</button> 
-    </div>  
+      <button type="button" class="btn btn-info" style="padding: 0px;width:140px;height: 100px;margin-left: 13px;">Cafe Latte</button>
+      <button type="button" class="btn btn-info" style="padding: 0px;width:140px;height: 100px;margin-left: 1px;">Americano</button>
+      <button type="button" class="btn btn-info" style="padding: 0px;width:140px;height: 100px;margin-left: 1px;">Cappuccino</button>
+      <button type="button" class="btn btn-info" style="padding: 0px;width:140px;height: 100px;margin-left: 1px;">Espresso</button>
+    </div>
     <div class="btn-cafe" style="margin-top: 5px;" >
       <button type="button" class="btn btn-info" style="padding: 0px;width:140px;height: 100px;margin-left: 13px;">Caramel Macchiato</button>
-      <button type="button" class="btn btn-info" style="padding: 0px;width:140px;height: 100px;margin-left: 1px;">Mocha Latte</button> 
-      <button type="button" class="btn btn-info" style="padding: 0px;width:140px;height: 100px;margin-left: 1px;">Vanilla Latte</button> 
-      <button type="button" class="btn btn-info" style="padding: 0px;width:140px;height: 100px;margin-left: 1px;">Caramel Latte</button> 
-    </div>  
+      <button type="button" class="btn btn-info" style="padding: 0px;width:140px;height: 100px;margin-left: 1px;">Mocha Latte</button>
+      <button type="button" class="btn btn-info" style="padding: 0px;width:140px;height: 100px;margin-left: 1px;">Vanilla Latte</button>
+      <button type="button" class="btn btn-info" style="padding: 0px;width:140px;height: 100px;margin-left: 1px;">Caramel Latte</button>
+    </div>
     <div class="btn-cafe" style="margin-top: 5px;" >
-      <button type="button" class="btn btn-info" style="padding: 0px;width:140px;height: 100px;margin-left: 13px;">Hazelnut Latte</button> 
-      <button type="button" class="btn btn-info" style="padding: 0px;width:140px;height: 100px;margin-left: 1px;">White Chocolate</button> 
-      <button type="button" class="btn btn-info" style="padding: 0px;width:140px;height: 100px;margin-left: 1px;">Dark Chocolate</button> 
-      <button type="button" class="btn btn-info" style="padding: 0px;width:140px;height: 100px;margin-left: 1px;">Red Eyes Latte</button> 
-    </div>  
+      <button type="button" class="btn btn-info" style="padding: 0px;width:140px;height: 100px;margin-left: 13px;">Hazelnut Latte</button>
+      <button type="button" class="btn btn-info" style="padding: 0px;width:140px;height: 100px;margin-left: 1px;">White Chocolate</button>
+      <button type="button" class="btn btn-info" style="padding: 0px;width:140px;height: 100px;margin-left: 1px;">Dark Chocolate</button>
+      <button type="button" class="btn btn-info" style="padding: 0px;width:140px;height: 100px;margin-left: 1px;">Red Eyes Latte</button>
+    </div>
 
   </div>
 </div>

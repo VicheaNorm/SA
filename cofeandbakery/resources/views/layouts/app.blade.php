@@ -16,7 +16,7 @@
 <body>
     <div id="app">
         @include('inc.navbar')
-        <div class="container">
+        <div class="container" style="margin-top: -30px;">
             {{-- @include('inc.messages') --}}
             @yield('content')
         </div>

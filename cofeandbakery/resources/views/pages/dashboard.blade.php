@@ -22,7 +22,7 @@
     </div>
   </div>
 </nav>
-    
+
     <div style="margin-top: 3em"><br></div>
     <div class="container-fluid">
       <div class="row">
@@ -35,7 +35,7 @@
           </ul>
           <ul class="nav nav-sidebar">
             <li><a href="">PRODUCTS</a></li>
-            <li><a href="">ADD PRODUCTS</a></li>
+            <li><a href="/addproduct">ADD PRODUCTS</a></li>
             <li><a href="">STOCK</a></li>
             <li><a href="">SUPPLIER</a></li>
             <li><a href="">EXPENSE</a></li>
@@ -44,7 +44,7 @@
             <li><a href="">SETUP USER</a></li>
             <li><a href="">STAFF</a></li>
           </ul>
-        </div>        
+        </div>
         <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
           <h1 class="page-header" style="margin-top: -450px">Dashboard</h1>
 
@@ -73,7 +73,7 @@
 
           <h2 class="sub-header">Section title</h2>
           <div class="table-responsive">
-            
+
           </div>
         </div>
       </div>

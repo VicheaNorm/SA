@@ -10,62 +10,65 @@
                 <div class="form-group" style="margin-bottom: -5px">
                     <label class="control-label col-sm-2" for="pwd" style="padding-top: 5px">Product Code:</label>
                     <div class="col-sm-3">
-                        <input type="password" class="form-control" id="pwd" placeholder="Enter Code" name="pwd">
+                        <input type="text" class="form-control" id="txtcode" placeholder="Enter Product Code" name="txtcode">
                     </div>
                 </div>
                 <br>
                 <div class="form-group" style="margin-bottom: -5px">
                     <label class="control-label col-sm-2" for="pwd" style="padding-top: 5px">Product Name:</label>
                     <div class="col-sm-3">
-                        <input type="password" class="form-control" id="pwd" placeholder="Input Name" name="pwd">
+                        <input type="text" class="form-control" id="txtpname" placeholder="Input Product Name" name="txtpname">
                     </div>
                 </div>
                 <br>
                 <div class="form-group" style="margin-bottom: -5px">
                     <label class="control-label col-sm-2" for="pwd" style="padding-top: 5px">Categories:</label>
-                    <div class="col-sm-3">
-                        <input type="password" class="form-control" id="pwd" placeholder="Input Name" name="pwd">
-                    </div>
+                    <select id="cars" style="margin-left: 15px; border-radius : 4px; width: 150px; height: 35px; ">
+                        <option value="iced">Iced</option>
+                        <option value="hot">Hot</option>
+                        <option value="frapped">Frapped</option>
+                        <option value="bakery">Bakery</option>
+                    </select>
                 </div>
                 <br>
                 <div class="form-group" style="margin-bottom: -5px">
                     <label class="control-label col-sm-2" for="pwd" style="padding-top: 5px">Product Price:</label>
                     <div class="col-sm-3">
-                        <input type="password" class="form-control" id="pwd" placeholder="Input Name" name="pwd">
+                        <input type="text" class="form-control" id="txtprice" placeholder="Enter Product Price" name="txtprice">
                     </div>
                 </div>
                 <br><div class="form-group" style="margin-bottom: -5px">
                     <label class="control-label col-sm-2" for="pwd" style="padding-top: 5px">Date :</label>
                     <div class="col-sm-3">
-                        <input type="password" class="form-control" id="pwd" placeholder="Input Name" name="pwd">
+                        <input type="date" class="form-control" id="date" placeholder="" name="date">
                     </div>
                 </div>
                 <br>
                 <div class="form-group" style="margin-bottom: -5px">
                     <label class="control-label col-sm-2" for="pwd" style="padding-top: 5px">Product QTY:</label>
                     <div class="col-sm-3">
-                        <input type="password" class="form-control" id="pwd" placeholder="Input Name" name="pwd">
+                        <input type="text" class="form-control" id="txtqty" placeholder="Enter QTY " name="txtqty">
                     </div>
                 </div>
                 <br>
                 <div class="form-group" style="margin-bottom: -5px">
                     <label class="control-label col-sm-2" for="pwd" style="padding-top: 5px">Product Cost:</label>
                     <div class="col-sm-3">
-                        <input type="password" class="form-control" id="pwd" placeholder="Input Name" name="pwd">
+                        <input type="text" class="form-control" id="txtcost" placeholder="Enter Product Cost" name="txtcost">
                     </div>
                 </div>
                 <br>
                 <div class="form-group" style="margin-bottom: -5px">
                     <label class="control-label col-sm-2" for="pwd" style="padding-top: 5px">Unit:</label>
                     <div class="col-sm-3">
-                        <input type="password" class="form-control" id="pwd" placeholder="Input Name" name="pwd">
+                        <input type="text" class="form-control" id="txtunit" placeholder="Enter Unit" name="txtunit">
                     </div>
                 </div>
                 <br>
                 <div class="form-group" style="margin-bottom: -5px">
                     <label class="control-label col-sm-2" for="pwd" style="padding-top: 5px">Re-Order Unit:</label>
                     <div class="col-sm-3">
-                        <input type="password" class="form-control" id="pwd" placeholder="Input Name" name="pwd">
+                        <input type="text" class="form-control" id="txtreorder" placeholder="" name="txtreorder">
                     </div>
                 </div>
                 <br>

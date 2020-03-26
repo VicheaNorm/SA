@@ -1,25 +1,8 @@
  @extends('layouts.order')
 
-<nav class="navbar navbar-inverse navbar-fixed-top">
-    <div class="container-fluid">
-    <div class="navbar-header">
-        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        </button>
+@section('content')
+    
 
-        <a class="navbar-brand" href="/">COFFEE GANG</a>
-    </div>
-    <div id="navbar" class="navbar-collapse collapse">
-        <ul class="nav navbar-nav navbar-right">
-        <li><a href="/dashboard">Dashboard</a></li>
-        <li><a href="/">Profile</a></li>
-        </ul>
-    </div>
-    </div>
-</nav>
 {{-- Bar Button group --}}
 <div class="btn-group btn-group-justified" role="group" aria-label="..." style="margin-top: 50px">
   <div class="btn-group" role="group">
@@ -36,16 +19,15 @@
   </div>
 </div>
 {{-- Layout Grid --}}
-<div id="btn-grid" style="border: 1px solid gray; border-radius:5px; float: left; width:200px ;height: 550px; margin: 10px;">
-
-  <button type="button" class="btn btn-primary" style="width: 198px; height: 50px; margin-top: 5px; padding: 0px"> <a href="#" style="color: aliceblue">Order List</a></button>
-    <button type="button" class="btn btn-primary" style="width: 198px; height: 50px; margin-top: 5px; padding: 0px"> <a href="#" style="color: aliceblue">Print KOT</a></button>
-      <button type="button" class="btn btn-primary" style="width: 198px; height: 50px; margin-top: 5px; padding: 0px"> <a href="#" style="color: aliceblue">Modifly Order</a></button>
-        <button type="button" class="btn btn-primary" style="width: 198px; height: 50px; margin-top: 5px; padding: 0px"> <a href="#" style="color: aliceblue">Cancel Order</a></button>
-
-
+<div id="btn-grid" style="border: 1px solid gray; border-radius:5px; float: left; width:200px ;height: 670px; margin: 10px;">
+    <div id="box" style="margin-top: 365px;">
+        <button type="button" class="btn btn-primary" style="width: 190px; height: 40px; margin: 5px 0px 0px 4px; padding: 0px"> <a href="#" style="color: aliceblue">Order List</a></button>
+        <button type="button" class="btn btn-primary" style="width: 190px; height: 40px; margin: 5px 0px 0px 4px; padding: 0px"> <a href="#" style="color: aliceblue">Print KOT</a></button>
+        <button type="button" class="btn btn-primary" style="width: 190px; height: 40px; margin: 5px 0px 0px 4px; padding: 0px"> <a href="#" style="color: aliceblue">Modifly Order</a></button>
+        <button type="button" class="btn btn-primary" style="width: 190px; height: 40px; margin: 5px 0px 0px 4px; padding: 0px"> <a href="#" style="color: aliceblue">Cancel Order</a></button>
+    </div>
 </div>
-<div class="left-side" style="border: 1px solid gray; border-radius:5px; float: left; height: 550px; margin: 10px;">
+<div class="left-side" style="border: 1px solid gray; border-radius:5px; float: left; height: 670px; margin: 10px;">
   <table style="width: 485px;">
     <tr>
       <th colspan="4" style="text-align: center; font-weight: bold;height: 40px;">Order List</th>
@@ -57,24 +39,56 @@
       <th >Amount</th>
     </tr>
     <tr style="text-align: center;">
-      <span> <td> Iced Latte</td></span>
+      <td style="text-align: left; padding-left: 10px;"> Iced Latte</td>
       <td>1</td>
       <td>2.50$</td>
       <td>2.50$</td>
     </tr>
   </table>
-  <div class="payment-grib" style="background-color: brown; width: 100%; height: 150px; display: absolute; margin-top: 305px;">
-    <div class="left-box" style="width: 30%; float: left">
-      <p>Total Item : 01</p>
+  <div class="payment-grib" style="border-top: 1px solid grey; width: 100%; height: 250px; display: absolute; margin-top: 400px; font-family: 'Courier New', Courier, monospace;">
+    <div>
+      <div class="left-box" style="width: 30%; float: left">      
+          <p>Total Item : 01</p>        
+      </div>    
+      <div class="" style="width: 50%; float: left; font-weight: bold">
+        <p style=" text-align: right">Sub Total :</p>
+      </div>
+      <div class="right-box" style="width: 20%; float: right">
+        <p style="padding-left: 15px">$2.50</p>
+      </div>
     </div>
-    <div class="right-box" style="width: 70%; float: right">
-      <div class=""></div>
-    </div>
+    <div>
+      <div class="" style="width: 80%; float: left; font-weight: bold">
+        <p style="margin-top: -15px; text-align: right;">Discount:</p><br>
+        <p style="margin-top: -35px; text-align: right;">VAT:</p><br>
+        <p style="margin-top: -35px; text-align: right;">Total Discount:</p><br>
+        <p style="margin-top: -35px; text-align: right;">Server/Delivery Charge:</p>      
+      </div>
+      <div class="right-box" style="width: 20%; float: right">
+        <p style="margin-top: -15px; padding-left: 15px">$2.50</p><br>
+        <p style="margin-top: -35px; padding-left: 15px">10%</p><br>
+        <p style="margin-top: -35px; padding-left: 15px">$2.25</p><br>
+        <p style="margin-top: -35px; padding-left: 15px">0</p>
+      </div>
+      <div class="" style="width: 80%; float: left">
+        <h5 style=" font-weight: bold; margin-top: -5px;; text-align: right">Total Payment:</h5>
+        
+      </div>
+      <div class="right-box" style="width: 20%; float: right">
+        <p style="margin-top: -9px; padding-left: 15px">$2.25</p>
+      </div>
+    </div> 
 
+    <div class="btn-process" style="float: left; font-weight: bold">
+      <button type="button" class="btn btn-danger" style="width: 120px; height: 30px; padding: 0px; margin-left: 50px;">Cancel</button>
+      <button type="button" class="btn btn-success" style="width: 120px; height: 30px; padding: 0px; ">Hold</button>
+      <button type="button" class="btn btn-warning" style="width: 120px; height: 30px; padding: 0px; ">Place Order</button>
+    </div>
   </div>
+  
 </div>
 
-<div class="right-side" style="border: 1px solid dimgrey; border-radius:5px; width: 600px; height: 550px; float: right; margin: 10px;">
+<div class="right-side" style="border: 1px solid dimgrey; border-radius:5px; width: 600px; height: 670px; float: right; margin: 10px;">
   <div id="btn-catgaory" style="padding: 3px; margin-top: 5px;">
     <button type="button" class="btn btn-primary active" style="width: 140px; height: 35px; padding: 0px;margin-left: 10px;"><h5>ICE Drink</h5></button>
     <button type="button" class="btn btn-primary" style="width: 140px; height: 35px; padding: 0px"><h5>Hot Drink</h5></button>
@@ -103,3 +117,4 @@
 
   </div>
 </div>
+@endsection

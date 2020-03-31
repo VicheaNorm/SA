@@ -16,8 +16,8 @@
 
     <style>
         #wrapper{
-            margin: 0% 10% 0% 10%;
-            width: 75%;
+            margin: 0% 5% 0% 5%;
+            width: 90%;
             height: auto;
         }
         .container{

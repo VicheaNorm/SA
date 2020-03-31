@@ -11,25 +11,6 @@ class PagesController extends Controller
         $title = 'DASHBOARD';
         return view('pages.dashboard')->with('title', $title);
     }
-
-    public function index(){
-        $title = 'Welcome Coffee Project';
-        return view('pages.index')->with('title', $title);
-    }
-
-    public function about(){
-        $title = 'ABOUT Us';
-        return view('pages.about')-> with('title', $title);
-    }
-
-    public function services(){
-        $data = array(
-            'title' => ' SERVICE',
-            'services' => ['Web Design','POS','Programing']
-        );
-
-        return view('pages.services')-> with($data);
-    }
     public function order()
     {
         $title = 'Create Order';
@@ -44,5 +25,15 @@ class PagesController extends Controller
     {
         $title = 'Add Products';
         return view('pages.addproduct')->with('title', $title);
+    }
+    public function product()
+    {
+        $title = 'Product List';
+        return view('pages.product')->with('title', $title);
+    }
+    public function user()
+    {
+        $title = 'User List';
+        return view('pages.user')->with('title', $title);
     }
 }

@@ -58,7 +58,7 @@
                 </a>
             </li>
             <li style="margin-bottom: -10px;">
-                <a href="./user.html">
+                <a href="/user">
                     <i class="nc-icon nc-single-02"></i>
                     <p style="color:#1A5276; font-weight: 700;">User Profile</p>
                 </a>
@@ -166,7 +166,7 @@
                 <br>
                 <div class="form-group" style="padding-left: 210px;">
                     <button type="button" class="btn btn-danger" style="width: 120px; height: 30px; padding:0px">Cancel</button>
-                    <button type="button" class="btn btn-success" style="width: 120px; height: 30px; padding:0px">Add</button>
+                    <button type="button" class="btn btn-success" data-toggle="modal" data-target="#myModal" style="width: 120px; height: 30px; padding:0px">Add</button>
                 </div>
         </div>
         <div class="col-sm-6">
@@ -178,12 +178,22 @@
                 <input type="file" class="form-control-file border">
             </div>
         </div>
-        
-     
-        
     </div>
-    
+</div>
 
+<!-- Modal -->
+<div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog modal-sm">
+        <div class="modal-content">
+        <div class="modal-header" style="background-color: #2DFF69;">
+            {{-- <button type="button" class="close" data-dismiss="modal">&times;</button> --}}
+            <h2 style="font-family: ubuntu; color: aliceblue; padding: 0px;">Successful</h2>
+        </div>        
+        <div class="modal-footer">
+            <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+        </div>
+        </div>
+    </div>
 </div>
 
 @endsection

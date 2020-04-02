@@ -61,7 +61,7 @@
     <div class="btn-process" style="float: left; font-weight: bold">
       <button type="button" class="btn btn-danger" style="width: 130px; height: 30px; padding: 0px; margin-left: 10px;">Cancel</button>
       <button type="button" class="btn btn-success" style="width: 130px; height: 30px; padding: 0px; ">Hold</button>
-      <button type="button" class="btn btn-warning" style="width: 130px; height: 30px; padding: 0px; ">Place Order</button>
+      <button type="button" class="btn btn-warning" data-toggle="modal" data-target="#exampleModalCenter" style="width: 130px; height: 30px; padding: 0px; ">Place Order</button>
     </div>
   </div>
   
@@ -81,7 +81,7 @@
       <button type="button" class="btn btn-info" style="padding: 0px;width:130px;height: 100px;margin-left: 1px;">Cappuccino</button>
       <button type="button" class="btn btn-info" style="padding: 0px;width:130px;height: 100px;margin-left: 1px;">Espresso</button>
     </div>
-    <div class="btn-cafe" style="margin-top: 5px;" >
+    <div class="btn-cafe" style="margin-top: 5px;" ></div>
       <button type="button" class="btn btn-info" style="padding: 0px;width:130px;height: 100px;margin-left: 17px;">Caramel Macchiato</button>
       <button type="button" class="btn btn-info" style="padding: 0px;width:130px;height: 100px;margin-left: 1px;">Mocha Latte</button>
       <button type="button" class="btn btn-info" style="padding: 0px;width:130px;height: 100px;margin-left: 1px;">Vanilla Latte</button>
@@ -96,4 +96,56 @@
 
   </div>
 </div>
+
+
+<!-- Modal -->
+<div class="modal fade bd-example-modal-lg" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header" style="height: 50px; background-color: #5DADE2">
+        <h4 class="modal-title" id="exampleModalLongTitle"​ style="font-family: Khmer OS Siemreap; color: #fff">ទូទាត់ប្រាក់</h4>
+      </div>
+        <div class="modal-body" class="popup-font" style="height: 0px;">          
+          <div class="popup-font">
+            <label for="usr">សរុបប្រាក់ដែលត្រូវបង់ (TOTAL)</label>
+              <div>            
+                <input type="text" class="btn-input" id="txtus" placeholder="ប្រាក់ទទួលជា US ($)">
+                <input type="text" class="btn-input" id="txtrail" placeholder="ប្រាក់ទទួលជារៀល (៛)">                        
+              </div>
+          </div>
+          <div class="popup-font" style="margin-top: 5px;">
+            <label for="usr">សរុបប្រាក់ដែលទទួលបាន</label>
+              <div>            
+                <input type="text" class="btn-input" id="txtus" placeholder="ប្រាក់ទទួលជា US ($)">
+                <input type="text" class="btn-input" id="txtrail" placeholder="ប្រាក់ទទួលជារៀល (៛)">     
+                <input type="text" class="btn-input" id="txtrail" placeholder="Customer ID / លេខអថិជន">                        
+              </div>
+          </div>
+          <div class="popup-font">
+            <label for="usr">សរុបប្រាក់ដែលត្រូវបង់ (TOTAL)</label>
+              <div>            
+                <input type="text" class="btn-input" id="txtus" placeholder="ប្រាក់ដែលនៅសល់ជា US ($)">
+                <input type="text" class="btn-input" id="txtrail" placeholder="ប្រាក់ដែលនៅសល់ជារៀល (៛)"> 
+                <button type="button" class="btn btn-danger" style="width: 100px;">Cancel</button>
+                <button type="button" class="btn btn-success" style="width: 200px;">Enter</button>
+              </div>
+          </div>
+          <div class="popup-font">
+            <label for="usr">សរុបប្រាក់ដែលត្រូវបង់ (TOTAL)</label>
+              <div>            
+                <input type="text" class="btn-input" id="txtus" placeholder="ប្រាក់អាប់ជា US ($)">
+                <input type="text" class="btn-input" id="txtrail" placeholder="ប្រាក់អាប់រៀល (៛)"> 
+                <button type="button" class="btn btn-info" style="width: 100px;">Print & Save</button>
+                <button type="button" class="btn btn-info" style="width: 100px;">Save</button>              
+                <button type="button" class="btn btn-danger" data-dismiss="modal" style="width: 100px;">Close</button>
+              </div>
+          </div>
+        </div>
+      </div>
+      {{-- <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div> --}}
+    </div>
+  </div>
 @endsection

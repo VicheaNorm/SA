@@ -33,10 +33,10 @@
                     <p style="color:#1A5276; font-weight: 700;">CUSTOMER</p>
                 </a>
             </li>
-            <li class="active" style="margin-bottom: -10px;">
+            <li style="margin-bottom: -10px;">
                 <a href="/product">
                     <i class="nc-icon nc-box-2"></i>
-                    <p style="color:#ff8000; font-weight: 900;">PRODUCT</p>
+                    <p style="color:#1A5276; font-weight: 700;">PRODUCT</p>
                 </a>
             </li>
             <li style="margin-bottom: -10px;">
@@ -63,10 +63,10 @@
                     <p style="color:#1A5276; font-weight: 700;">User Profile</p>
                 </a>
             </li>
-            <li style="margin-bottom: -10px;">
+            <li class="active" style="margin-bottom: -10px;">
                 <a href="/expense">
                     <i class="nc-icon nc-money-coins"></i>
-                    <p style="color:#1A5276; font-weight: 700;">EXPENSE</p>
+                    <p style="color:#ff8000; font-weight: 900;">EXPENSE</p>
                 </a>
             </li>
             <li style="margin-bottom: -10px;">
@@ -90,29 +90,81 @@
         </ul>
     </div>
 </div>
+{{-- Content --}}
+<div class="container-fluid">
+  <h3 class="card-title" style="font-family: ubuntu; margin-top: 70px;"> EXPENSE</h3> 
+  <div class="container-fluid">
+    <div class="row" style="height: 120px; background-color: #ff8000; border-radius: 5px">
+        <div class="col-xl ">          
+            <div class="form-group">
+            <label style="padding-top: 5px">Item</label>
+            <input type="text" class="form-control" id="txtcode" placeholder="Enter Items" name="txtcode">                
+        </div>
+        </div>
+      <div class="col-xl ">
+          <div class="form-group">
+            <label style="padding-top: 5px">Description</label>
+            <input type="text" class="form-control" id="txtcode" placeholder="Description" name="txtcode">                
+        </div>
+      </div>
+      <div class="col-xl ">
+          <div class="form-group">
+            <label style="padding-top: 5px">Cost</label>
+            <input type="text" class="form-control" id="txtcode" placeholder="Enter Cost" name="txtcode">                
+        </div>
+      </div>
+      <div class="col-xl ">
+        <div class="form-group">
+            <label style="padding-top: 5px">Qty</label>
+            <input type="text" class="form-control" id="txtcode" placeholder="Enter QTY" name="txtcode">                
+            <button type="button" class="btn btn-success" data-toggle="modal" data-target="#myModal" style="height: 30px; width: 150px;padding: 0px;">Save</button>
+        </div>        
+      </div>
+      <div class="col-xl ">
+        <div class="form-group">
+            <label style="padding-top: 5px">Other</label>
+            <input type="text" class="form-control" id="txtcode" placeholder="Other......" name="txtcode">                
+            <button type="button" class="btn btn-danger" style="height: 30px; width: 150px;padding: 0px;"> <a href="/expense" style="color: #fff">Cancel</a></button>
+        </div>
+      </div>
+      <div class="col-xl ">
+        <div class="form-group">
+            <label style="padding-top: 5px">Amount Notes</label>
+            <input type="text" class="form-control" id="txtcode" placeholder="Enter Amount" name="txtcode">                
+            <button type="button" class="btn btn-warning" style="height: 30px; width: 150px;padding: 0px;">Clear</button>
+        </div>        
+      </div>
+    </div>  
+  </div>
+</div>
+
 <!--Table-->
-<div class="content">
+<div class="content" style="margin-top: 5px;">
         <div class="row">
           <div class="col-md-12">
             <div class="card">
-              <div class="card-header">
-                <h3 class="card-title" style="font-family: ubuntu"> PRODUCT LIST</h3>
-              </div>
+              
               <div class="card-body">
                 <div class="table-responsive">
                   <table class="table">
                     <thead class=" text-primary">
                       <th>
-                        Product_ID
+                        Items
                       </th>
                       <th>
-                        Product_Name
+                        Description
                       </th>
                       <th>
-                        Product Type
+                        Cost
+                      </th>
+                      <th>
+                        QTY
+                      </th>
+                      <th>
+                        Other
                       </th>
                       <th class="text-right">
-                        Product Category
+                        Total Amount
                       </th>
                     </thead>
                     <tbody>
@@ -122,6 +174,12 @@
                         </td>
                         <td>
                           Coffee
+                        </td>
+                        <td>
+                          Simple
+                        </td>
+                        <td>
+                          Simple
                         </td>
                         <td>
                           Simple
@@ -140,6 +198,12 @@
                         <td>
                           Simple
                         </td>
+                        <td>
+                          Simple
+                        </td>
+                        <td>
+                          Simple
+                        </td>
                         <td class="text-right">
                           Simple
                         </td>
@@ -150,6 +214,12 @@
                         </td>
                         <td>
                           Coffee
+                        </td>
+                        <td>
+                          Simple
+                        </td>
+                        <td>
+                          Simple
                         </td>
                         <td>
                           Simple
@@ -167,4 +237,17 @@
         </div>
         </div>
 <!--Table-->
+<div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog modal-sm">
+        <div class="modal-content">
+        <div class="modal-header" style="background-color: #2DFF69;">
+            {{-- <button type="button" class="close" data-dismiss="modal">&times;</button> --}}
+            <h2 style="font-family: ubuntu; color: aliceblue; padding: 0px;">Successful</h2>
+        </div>
+        <div class="modal-footer">
+            <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+        </div>
+        </div>
+    </div>
+</div>
 @endsection

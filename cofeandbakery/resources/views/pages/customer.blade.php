@@ -91,7 +91,7 @@
     </div>
 </div>
 <!--Table-->
-<div class="content">
+{{-- <div class="content">
         <div class="row">
           <div class="col-md-12">
             <div class="card">
@@ -166,5 +166,32 @@
           </div>
         </div>
         </div>
-<!--Table-->
+<!--Table--> --}}
+<div class="container-fluid">
+  <h3 class="card-title" style="font-family: ubuntu; margin-top: 70px;"> EXPENSE</h3> 
+  <div class="container-fluid">
+    <div class="row" style="height: 120px; background-color: #ff8000; border-radius: 5px">
+        <div class="col-xl ">          
+            <div class="form-group">
+            <label style="padding-top: 5px">Item</label>
+            <input type="text" class="form-control" id="txtcode" placeholder="Enter Items" name="txtcode">                
+        </div>
+        </div>
+      <div class="col-xl ">
+          <div class="form-group">
+            <label style="padding-top: 5px">Description</label>
+            <input type="text" class="form-control" id="txtcode" placeholder="Description" name="txtcode">                
+        </div>
+      </div>
+      <div class="col-xl ">
+          <div class="form-group">
+            <label style="padding-top: 5px">Cost</label>
+            <input type="text" class="form-control" id="txtcode" placeholder="Enter Cost" name="txtcode">                
+        </div>
+      </div>
+          
+    </div>  
+  </div>
+</div>
+
 @endsection

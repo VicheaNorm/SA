@@ -33,10 +33,10 @@
                     <p style="color:#1A5276; font-weight: 700;">CUSTOMER</p>
                 </a>
             </li>
-            <li class="active" style="margin-bottom: -10px;">
+            <li style="margin-bottom: -10px;">
                 <a href="/product">
                     <i class="nc-icon nc-box-2"></i>
-                    <p style="color:#ff8000; font-weight: 900;">PRODUCT</p>
+                    <p style="color:#1A5276; font-weight: 700;">PRODUCT</p>
                 </a>
             </li>
             <li style="margin-bottom: -10px;">
@@ -45,10 +45,10 @@
                     <p style="color:#1A5276; font-weight: 700;">ADD PRODUCT</p>
                 </a>
             </li>
-            <li style="margin-bottom: -10px;">
+            <li class="active" style="margin-bottom: -10px;">
                 <a href="/stock">
                     <i class="nc-icon nc-shop"></i>
-                    <p style="color:#1A5276; font-weight: 700;">STOCK</p>
+                    <p style="color:#ff8000; font-weight: 700;">STOCK</p>
                 </a>
             </li>
             <li style="margin-bottom: -10px;">
@@ -89,82 +89,5 @@
             </li>
         </ul>
     </div>
-</div>
-<!--Table-->
-<div class="content">
-        <div class="row">
-          <div class="col-md-12">
-            <div class="card">
-              <div class="card-header">
-                <h3 class="card-title" style="font-family: ubuntu"> PRODUCT LIST</h3>
-              </div>
-              <div class="card-body">
-                <div class="table-responsive">
-                  <table class="table">
-                    <thead class=" text-primary">
-                      <th>
-                        Product_ID
-                      </th>
-                      <th>
-                        Product_Name
-                      </th>
-                      <th>
-                        Product Type
-                      </th>
-                      <th class="text-right">
-                        Product Category
-                      </th>
-                    </thead>
-                    <tbody>
-                      <tr>
-                        <td>
-                          001
-                        </td>
-                        <td>
-                          Coffee
-                        </td>
-                        <td>
-                          Simple
-                        </td>
-                        <td class="text-right">
-                          Simple
-                        </td>
-                      </tr>  
-                      <tr>
-                        <td>
-                          002
-                        </td>
-                        <td>
-                          Coffee
-                        </td>
-                        <td>
-                          Simple
-                        </td>
-                        <td class="text-right">
-                          Simple
-                        </td>
-                      </tr>  
-                      <tr>
-                        <td>
-                          003
-                        </td>
-                        <td>
-                          Coffee
-                        </td>
-                        <td>
-                          Simple
-                        </td>
-                        <td class="text-right">
-                          Simple
-                        </td>
-                      </tr>                      
-                    </tbody>
-                  </table>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        </div>
-<!--Table-->
+</div>    
 @endsection

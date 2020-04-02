@@ -36,4 +36,39 @@ class PagesController extends Controller
         $title = 'User List';
         return view('pages.user')->with('title', $title);
     }
+    public function expense()
+    {
+        $title = 'Expense Page';
+        return view('pages.expense')->with('title', $title);
+    }
+    public function customer()
+    {
+        $title = 'Customer Page';
+        return view('pages.customer')->with('title', $title);
+    }
+    public function stock()
+    {
+        $title = 'Stock Page';
+        return view('pages.stock')->with('title', $title);
+    }
+    public function setupuser()
+    {
+        $title = 'Setup User Page';
+        return view('pages.setupuser')->with('title', $title);
+    }
+    public function staff()
+    {
+        $title = 'Staff Page';
+        return view('pages.staff')->with('title', $title);
+    }
+    public function userprofile()
+    {
+        $title = 'User Profile Page';
+        return view('pages.userprofile')->with('title', $title);
+    }
+    public function supplier()
+    {
+        $title = 'Supplier Page';
+        return view('pages.supplier')->with('title', $title);
+    }
 }

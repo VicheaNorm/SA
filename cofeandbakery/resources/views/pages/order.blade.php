@@ -105,7 +105,7 @@
       <div class="modal-header" style="height: 50px; background-color: #5DADE2">
         <h4 class="modal-title" id="exampleModalLongTitle"​ style="font-family: Khmer OS Siemreap; color: #fff">ទូទាត់ប្រាក់</h4>
       </div>
-        <div class="modal-body" class="popup-font" style="height: 0px;">          
+        <div class="modal-body" class="popup-font" style="height: 350px;">          
           <div class="popup-font">
             <label for="usr">សរុបប្រាក់ដែលត្រូវបង់ (TOTAL)</label>
               <div>            

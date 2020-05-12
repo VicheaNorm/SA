@@ -27,16 +27,16 @@
                     <p style="color:#1A5276; font-weight: 700;">CREATE ORDER</p>
                 </a>
             </li>
-            <li style="margin-bottom: -10px;">
+            <li class="active" style="margin-bottom: -10px;">
                 <a href="/customer">
                     <i class="nc-icon nc-single-02"></i>
-                    <p style="color:#1A5276; font-weight: 700;">CUSTOMER</p>
+                    <p style="color:#ff8000; font-weight: 900;">CUSTOMER</p>
                 </a>
             </li>
-            <li class="active" style="margin-bottom: -10px;">
+            <li style="margin-bottom: -10px;">
                 <a href="/product">
                     <i class="nc-icon nc-box-2"></i>
-                    <p style="color:#ff8000; font-weight: 900;">PRODUCT</p>
+                    <p style="color:#1A5276; font-weight: 700;">PRODUCT</p>
                 </a>
             </li>
             <li style="margin-bottom: -10px;">
@@ -91,107 +91,104 @@
     </div>
 </div>
 <!--Table-->
-{{-- <div class="content">
-        <div class="row">
-          <div class="col-md-12">
-            <div class="card">
-              <div class="card-header">
-                <h3 class="card-title" style="font-family: ubuntu"> PRODUCT LIST</h3>
-              </div>
-              <div class="card-body">
-                <div class="table-responsive">
-                  <table class="table">
-                    <thead class=" text-primary">
-                      <th>
-                        Product_ID
-                      </th>
-                      <th>
-                        Product_Name
-                      </th>
-                      <th>
-                        Product Type
-                      </th>
-                      <th class="text-right">
-                        Product Category
-                      </th>
-                    </thead>
-                    <tbody>
-                      <tr>
-                        <td>
-                          001
-                        </td>
-                        <td>
-                          Coffee
-                        </td>
-                        <td>
-                          Simple
-                        </td>
-                        <td class="text-right">
-                          Simple
-                        </td>
-                      </tr>  
-                      <tr>
-                        <td>
-                          002
-                        </td>
-                        <td>
-                          Coffee
-                        </td>
-                        <td>
-                          Simple
-                        </td>
-                        <td class="text-right">
-                          Simple
-                        </td>
-                      </tr>  
-                      <tr>
-                        <td>
-                          003
-                        </td>
-                        <td>
-                          Coffee
-                        </td>
-                        <td>
-                          Simple
-                        </td>
-                        <td class="text-right">
-                          Simple
-                        </td>
-                      </tr>                      
-                    </tbody>
-                  </table>
+<div class="content" style="margin-left: 80px; width: 120%">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="card" style="margin-top: 5px;">
+
+                <div class="card-body">
+                    <div class="table-responsive">
+                        <table class="table">
+                            <thead class=" text-primary">
+                            <th>
+                                Items
+                            </th>
+                            <th>
+                                Description
+                            </th>
+                            <th>
+                                Cost
+                            </th>
+                            <th>
+                                QTY
+                            </th>
+                            <th>
+                                Other
+                            </th>
+                            <th class="text-right">
+                                Total Amount
+                            </th>
+                            </thead>
+                            <tbody>
+                            <tr>
+                                <td>
+                                    001
+                                </td>
+                                <td>
+                                    Coffee
+                                </td>
+                                <td>
+                                    Simple
+                                </td>
+                                <td>
+                                    Simple
+                                </td>
+                                <td>
+                                    Simple
+                                </td>
+                                <td class="text-right">
+                                    Simple
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    002
+                                </td>
+                                <td>
+                                    Coffee
+                                </td>
+                                <td>
+                                    Simple
+                                </td>
+                                <td>
+                                    Simple
+                                </td>
+                                <td>
+                                    Simple
+                                </td>
+                                <td class="text-right">
+                                    Simple
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    003
+                                </td>
+                                <td>
+                                    Coffee
+                                </td>
+                                <td>
+                                    Simple
+                                </td>
+                                <td>
+                                    Simple
+                                </td>
+                                <td>
+                                    Simple
+                                </td>
+                                <td class="text-right">
+                                    Simple
+                                </td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </div>
                 </div>
-              </div>
             </div>
-          </div>
         </div>
-        </div>
-<!--Table--> --}}
-<div class="container-fluid">
-  <h3 class="card-title" style="font-family: ubuntu; margin-top: 70px;"> EXPENSE</h3> 
-  <div class="container-fluid">
-    <div class="row" style="height: 120px; background-color: #ff8000; border-radius: 5px">
-        <div class="col-xl ">          
-            <div class="form-group">
-            <label style="padding-top: 5px">Item</label>
-            <input type="text" class="form-control" id="txtcode" placeholder="Enter Items" name="txtcode">                
-        </div>
-        </div>
-      <div class="col-xl ">
-          <div class="form-group">
-            <label style="padding-top: 5px">Description</label>
-            <input type="text" class="form-control" id="txtcode" placeholder="Description" name="txtcode">                
-        </div>
-      </div>
-      <div class="col-xl ">
-          <div class="form-group">
-            <label style="padding-top: 5px">Cost</label>
-            <input type="text" class="form-control" id="txtcode" placeholder="Enter Cost" name="txtcode">                
-        </div>
-      </div>
-          
-    </div>  
-  </div>
+    </div>
 </div>
+<!--Table-->
+
 
 @endsection

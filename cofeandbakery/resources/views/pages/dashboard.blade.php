@@ -12,7 +12,7 @@
             COFFEE GANG
         </a>
     </div>
-    <div class="sidebar-wrapper" style="width:205px; font-family: ubuntu">
+    <div class="sidebar-wrapper" style="width:205px; font-family: Verdana, Geneva, Tahoma, sans-serif; font-weight: 400;">
         <ul class="nav" style="margin-top: -10px;">
             <li class="active" style="margin-bottom: -10px;">
                 <a href="./dashboard.html">
@@ -90,7 +90,7 @@
     </div>
 </div>
 {{-- Content --}}
-<div class="content" style="margin-top: 80px;">
+<div class="content" style="margin-top: 80px; margin-left: 50px;">
       <div class="row">
         <div class="col-lg-3 col-md-6 col-sm-6">
           <div class="card card-stats">
@@ -266,18 +266,7 @@
     <footer class="footer footer-black  footer-white ">
       <div class="container-fluid">
         <div class="row">
-          <nav class="footer-nav">
-            <ul>
-              <li>
-                <a href="https://www.creative-tim.com" target="_blank">Creative Tim</a>
-              </li>
-              <li>
-                <a href="http://blog.creative-tim.com/" target="_blank">Blog</a>
-              </li>
 
-
-            </ul>
-          </nav>
           <div class="credits ml-auto">
               <span class="copyright">
                 ©
@@ -290,6 +279,6 @@
       </div>
     </footer>
   </div>
-</div> 
-    
+</div>
+
 @endsection

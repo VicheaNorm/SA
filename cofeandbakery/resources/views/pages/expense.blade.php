@@ -91,59 +91,59 @@
     </div>
 </div>
 {{-- Content --}}
-<div class="container-fluid">
-  <h3 class="card-title" style="font-family: ubuntu; margin-top: 70px;"> EXPENSE</h3> 
+<div class="container-fluid" style="margin-left: 35px;">
+  <h3 class="card-title" style="font-family: ubuntu; margin-top: 70px;"> EXPENSE</h3>
   <div class="container-fluid">
     <div class="row" style="height: 120px; background-color: #ff8000; border-radius: 5px">
-        <div class="col-xl ">          
+        <div class="col-xl ">
             <div class="form-group">
             <label style="padding-top: 5px">Item</label>
-            <input type="text" class="form-control" id="txtcode" placeholder="Enter Items" name="txtcode">                
+            <input type="text" class="form-control" id="txtcode" placeholder="Enter Items" name="txtcode">
         </div>
         </div>
       <div class="col-xl ">
           <div class="form-group">
             <label style="padding-top: 5px">Description</label>
-            <input type="text" class="form-control" id="txtcode" placeholder="Description" name="txtcode">                
+            <input type="text" class="form-control" id="txtcode" placeholder="Description" name="txtcode">
         </div>
       </div>
       <div class="col-xl ">
           <div class="form-group">
             <label style="padding-top: 5px">Cost</label>
-            <input type="text" class="form-control" id="txtcode" placeholder="Enter Cost" name="txtcode">                
+            <input type="text" class="form-control" id="txtcode" placeholder="Enter Cost" name="txtcode">
         </div>
       </div>
       <div class="col-xl ">
         <div class="form-group">
             <label style="padding-top: 5px">Qty</label>
-            <input type="text" class="form-control" id="txtcode" placeholder="Enter QTY" name="txtcode">                
+            <input type="text" class="form-control" id="txtcode" placeholder="Enter QTY" name="txtcode">
             <button type="button" class="btn btn-success" data-toggle="modal" data-target="#myModal" style="height: 30px; width: 150px;padding: 0px;">Save</button>
-        </div>        
+        </div>
       </div>
       <div class="col-xl ">
         <div class="form-group">
             <label style="padding-top: 5px">Other</label>
-            <input type="text" class="form-control" id="txtcode" placeholder="Other......" name="txtcode">                
+            <input type="text" class="form-control" id="txtcode" placeholder="Other......" name="txtcode">
             <button type="button" class="btn btn-danger" style="height: 30px; width: 150px;padding: 0px;"> <a href="/expense" style="color: #fff">Cancel</a></button>
         </div>
       </div>
       <div class="col-xl ">
         <div class="form-group">
             <label style="padding-top: 5px">Amount Notes</label>
-            <input type="text" class="form-control" id="txtcode" placeholder="Enter Amount" name="txtcode">                
+            <input type="text" class="form-control" id="txtcode" placeholder="Enter Amount" name="txtcode">
             <button type="button" class="btn btn-warning" style="height: 30px; width: 150px;padding: 0px;">Clear</button>
-        </div>        
+        </div>
       </div>
-    </div>  
+    </div>
   </div>
 </div>
 
 <!--Table-->
-<div class="content" style="margin-top: 5px;">
+<div class="content" style="margin-top: 5px; margin-left: 50px;">
         <div class="row">
           <div class="col-md-12">
             <div class="card">
-              
+
               <div class="card-body">
                 <div class="table-responsive">
                   <table class="table">
@@ -187,7 +187,7 @@
                         <td class="text-right">
                           Simple
                         </td>
-                      </tr>  
+                      </tr>
                       <tr>
                         <td>
                           002
@@ -207,7 +207,7 @@
                         <td class="text-right">
                           Simple
                         </td>
-                      </tr>  
+                      </tr>
                       <tr>
                         <td>
                           003
@@ -227,7 +227,7 @@
                         <td class="text-right">
                           Simple
                         </td>
-                      </tr>                      
+                      </tr>
                     </tbody>
                   </table>
                 </div>

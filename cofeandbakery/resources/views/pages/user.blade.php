@@ -91,136 +91,102 @@
     </div>
 </div>
 <!--Table-->
-<div class="content">
-        <div class="row">
-          <div class="col-md-12">
-            <div class="card">
-              <div class="card-header">
-                <h3 class="card-title" style="font-family: ubuntu"> USER LIST</h3>
-              </div>
-              <div class="card-body">
-                <div class="table-responsive">
-                  <table class="table">
-                    <thead class=" text-primary">
-                      <th>
-                        Name
-                      </th>
-                      <th>
-                        Country
-                      </th>
-                      <th>
-                        City
-                      </th>
-                      <th class="text-right">
-                        Salary
-                      </th>
-                    </thead>
-                    <tbody>
-                      <tr>
-                        <td>
-                          Dakota Rice
-                        </td>
-                        <td>
-                          Niger
-                        </td>
-                        <td>
-                          Oud-Turnhout
-                        </td>
-                        <td class="text-right">
-                          $36,738
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          Minerva Hooper
-                        </td>
-                        <td>
-                          Curaçao
-                        </td>
-                        <td>
-                          Sinaai-Waas
-                        </td>
-                        <td class="text-right">
-                          $23,789
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          Sage Rodriguez
-                        </td>
-                        <td>
-                          Netherlands
-                        </td>
-                        <td>
-                          Baileux
-                        </td>
-                        <td class="text-right">
-                          $56,142
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          Philip Chaney
-                        </td>
-                        <td>
-                          Korea, South
-                        </td>
-                        <td>
-                          Overland Park
-                        </td>
-                        <td class="text-right">
-                          $38,735
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          Doris Greene
-                        </td>
-                        <td>
-                          Malawi
-                        </td>
-                        <td>
-                          Feldkirchen in Kärnten
-                        </td>
-                        <td class="text-right">
-                          $63,542
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          Mason Porter
-                        </td>
-                        <td>
-                          Chile
-                        </td>
-                        <td>
-                          Gloucester
-                        </td>
-                        <td class="text-right">
-                          $78,615
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          Jon Porter
-                        </td>
-                        <td>
-                          Portugal
-                        </td>
-                        <td>
-                          Gloucester
-                        </td>
-                        <td class="text-right">
-                          $98,615
-                        </td>
-                      </tr>
-                    </tbody>
-                  </table>
+<div class="content" style="margin-left: 80px; width: 120%">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="card" style="margin-top: 5px;">
+
+                <div class="card-body">
+                    <div class="table-responsive">
+                        <table class="table">
+                            <thead class=" text-primary">
+                            <th>
+                                Items
+                            </th>
+                            <th>
+                                Description
+                            </th>
+                            <th>
+                                Cost
+                            </th>
+                            <th>
+                                QTY
+                            </th>
+                            <th>
+                                Other
+                            </th>
+                            <th class="text-right">
+                                Total Amount
+                            </th>
+                            </thead>
+                            <tbody>
+                            <tr>
+                                <td>
+                                    001
+                                </td>
+                                <td>
+                                    Coffee
+                                </td>
+                                <td>
+                                    Simple
+                                </td>
+                                <td>
+                                    Simple
+                                </td>
+                                <td>
+                                    Simple
+                                </td>
+                                <td class="text-right">
+                                    Simple
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    002
+                                </td>
+                                <td>
+                                    Coffee
+                                </td>
+                                <td>
+                                    Simple
+                                </td>
+                                <td>
+                                    Simple
+                                </td>
+                                <td>
+                                    Simple
+                                </td>
+                                <td class="text-right">
+                                    Simple
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    003
+                                </td>
+                                <td>
+                                    Coffee
+                                </td>
+                                <td>
+                                    Simple
+                                </td>
+                                <td>
+                                    Simple
+                                </td>
+                                <td>
+                                    Simple
+                                </td>
+                                <td class="text-right">
+                                    Simple
+                                </td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </div>
                 </div>
-              </div>
             </div>
-          </div>
         </div>
-        </div>
+    </div>
+</div>
 <!--Table-->
 @endsection

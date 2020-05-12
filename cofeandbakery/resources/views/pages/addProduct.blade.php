@@ -92,7 +92,7 @@
 </div>
 
 {{-- Content --}}
-<div id="wrapper" style="width: 100%; margin-top: 70px;">
+<div id="wrapper" style="width: 100%; margin-top: 70px; margin-left: 50px;">
     <div id="header" style="font-family: Ubuntu;">
         <h3>ADD PRODUCTS</h3>
     </div>
@@ -171,7 +171,7 @@
         </div>
         <div class="col-sm-6">
             <div class="box-image" style="width: 256px; height: 256px; border: 1px solid #1f292e; border-radius: 5px; ">
-                <img src="{{asset('img/noimage.png')}}" alt="">        
+                <img src="{{asset('img/noimage.png')}}" alt="">
             </div>
             <div class="form-group">
                 <button type="button" class="btn btn-warning" style="margin-left: 50px; width: 150px; height: 35px; padding:0px;">Browse</button>
@@ -188,7 +188,7 @@
         <div class="modal-header" style="background-color: #2DFF69;">
             {{-- <button type="button" class="close" data-dismiss="modal">&times;</button> --}}
             <h2 style="font-family: ubuntu; color: aliceblue; padding: 0px;">Successful</h2>
-        </div>        
+        </div>
         <div class="modal-footer">
             <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
         </div>

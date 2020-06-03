@@ -78,26 +78,46 @@
   </div>
   <div id="image-box">
     <div class="btn-cafe" style="margin-top: 5px;" >
-      <button type="button" class="btn btn-info" style="padding: 0px;width:220px;height: 180px;margin-left: 17px;">Cafe Latte</button>
-      <button type="button" class="btn btn-info" style="padding: 0px;width:220px;height: 180px;margin-left: 1px;">Americano</button>
-      <button type="button" class="btn btn-info" style="padding: 0px;width:220px;height: 180px;margin-left: 1px;">Cappuccino</button>
-      <button type="button" class="btn btn-info" style="padding: 0px;width:220px;height: 180px;margin-left: 1px;">Espresso</button>
+      <button type="button" style="padding: 0px;margin-left: 17px;">
+          <img src="{{asset('img/latte-feature-1024x1005.jpg')}}" style="width:220px;height: 180px; border: 1px solid black">
+          <br>ICE LATTE
+      </button>
+      <button type="button"style="padding: 0px;width:220px;height: 180px;margin-left: 1px;">
+          <img src="{{asset('img/latte-feature-1024x1005.jpg')}}" style="width:220px;height: 180px; border: 1px solid black">
+          <br> ICE AME
+      </button>
+      <button type="button" style="padding: 0px;width:220px;height: 180px;margin-left: 1px;">
+          <img src="{{asset('img/latte-feature-1024x1005.jpg')}}" style="width:220px;height: 180px; border: 1px solid black">
+          Cappuccino</button>
+      <button type="button" style="padding: 0px;width:220px;height: 180px;margin-left: 1px;">
+          <img src="{{asset('img/latte-feature-1024x1005.jpg')}}" style="width:220px;height: 180px; border: 1px solid black">Espresso</button>
     </div>
-    <div class="btn-cafe" style="margin-top: 5px;" ></div>
-      <button type="button" class="btn btn-info" style="padding: 0px;width:220px;height: 180px;margin-left: 17px;">Caramel Macchiato</button>
-      <button type="button" class="btn btn-info" style="padding: 0px;width:220px;height: 180px;margin-left: 1px;">Mocha Latte</button>
-      <button type="button" class="btn btn-info" style="padding: 0px;width:220px;height: 180px;margin-left: 1px;">Vanilla Latte</button>
-      <button type="button" class="btn btn-info" style="padding: 0px;width:220px;height: 180px;margin-left: 1px;">Caramel Latte</button>
-    </div>
-    <div class="btn-cafe" style="margin-top: 5px;" >
-      <button type="button" class="btn btn-info" style="padding: 0px;width:220px;height: 180px;margin-left: 17px;">Hazelnut Latte</button>
-      <button type="button" class="btn btn-info" style="padding: 0px;width:220px;height: 180px;margin-left: 1px;">White Chocolate</button>
-      <button type="button" class="btn btn-info" style="padding: 0px;width:220px;height: 180px;margin-left: 1px;">Dark Chocolate</button>
-      <button type="button" class="btn btn-info" style="padding: 0px;width:220px;height: 180px;margin-left: 1px;">Red Eyes Latte</button>
-    </div>
-
+      <div class="btn-cafe" style="margin-top: 5px;" >
+          <button type="button" style="padding: 0px;margin-left: 17px;">
+              <img src="{{asset('img/latte-feature-1024x1005.jpg')}}" style="width:220px;height: 180px; border: 1px solid black">
+          </button>
+          <button type="button"style="padding: 0px;width:220px;height: 180px;margin-left: 1px;">
+              <img src="{{asset('img/latte-feature-1024x1005.jpg')}}" style="width:220px;height: 180px; border: 1px solid black">
+          </button>
+          <button type="button" style="padding: 0px;width:220px;height: 180px;margin-left: 1px;">
+              <img src="{{asset('img/latte-feature-1024x1005.jpg')}}" style="width:220px;height: 180px; border: 1px solid black">
+              Cappuccino</button>
+          <button type="button" style="padding: 0px;width:220px;height: 180px;margin-left: 1px;">
+              <img src="{{asset('img/latte-feature-1024x1005.jpg')}}" style="width:220px;height: 180px; border: 1px solid black">Espresso</button>
+      </div><div class="btn-cafe" style="margin-top: 5px;" >
+          <button type="button" style="padding: 0px;margin-left: 17px;">
+              <img src="{{asset('img/latte-feature-1024x1005.jpg')}}" style="width:220px;height: 180px; border: 1px solid black">
+          </button>
+          <button type="button"style="padding: 0px;width:220px;height: 180px;margin-left: 1px;">
+              <img src="{{asset('img/latte-feature-1024x1005.jpg')}}" style="width:220px;height: 180px; border: 1px solid black">
+          </button>
+          <button type="button" style="padding: 0px;width:220px;height: 180px;margin-left: 1px;">
+              <img src="{{asset('img/latte-feature-1024x1005.jpg')}}" style="width:220px;height: 180px; border: 1px solid black">
+              Cappuccino</button>
+          <button type="button" style="padding: 0px;width:220px;height: 180px;margin-left: 1px;">
+              <img src="{{asset('img/latte-feature-1024x1005.jpg')}}" style="width:220px;height: 180px; border: 1px solid black">Espresso</button>
+      </div>
   </div>
-
 
 <!-- Modal -->
 <div class="modal fade bd-example-modal-lg" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">

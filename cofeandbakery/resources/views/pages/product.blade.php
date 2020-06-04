@@ -12,86 +12,37 @@
                     <div class="table-responsive">
                         <table class="table">
                             <thead class=" text-primary">
-                            <th>
-                                Items
-                            </th>
-                            <th>
-                                Description
-                            </th>
-                            <th>
-                                Cost
-                            </th>
-                            <th>
-                                QTY
-                            </th>
-                            <th>
-                                Other
-                            </th>
-                            <th class="text-right">
-                                Total Amount
-                            </th>
+                            <th>ID</th>
+                            <th>Product Code</th>
+                            <th>Product Name</th>
+                            <th>Category</th>
+                            <th>Price</th>
+                            <th>DOB</th>
+                            <th>QTY</th>
+                            <th>Cost</th>
+                            <th>Unit</th>
+                            <th>Image</th>
+                            <th>Action</th>
                             </thead>
                             <tbody>
+                                @foreach($addproducts as $addproduct)
                             <tr>
-                                <td>
-                                    001
-                                </td>
-                                <td>
-                                    Coffee
-                                </td>
-                                <td>
-                                    Simple
-                                </td>
-                                <td>
-                                    Simple
-                                </td>
-                                <td>
-                                    Simple
-                                </td>
-                                <td class="text-right">
-                                    Simple
-                                </td>
+                                <th>{{$addproduct->id}}</th>
+                                <th>{{$addproduct->productcode}}</th>
+                                <th>{{$addproduct->name}}</th>
+                                <th>{{$addproduct->category}}</th>
+                                <th>{{$addproduct->price}}</th>
+                                <th>{{$addproduct->date}}</th>
+                                <th>{{$addproduct->qty}}</th>
+                                <th>{{$addproduct->cost}}</th>
+                                <th>{{$addproduct->unit}}</th>
+                                <th><img src="{{asset('uploads/addproduct/'. $addproduct->image)}}" alt="Image" width="50" height="50"></th>
+                                <th>
+                                    <a href="/editproduct/{{$addproduct->id}}" class="btn btn-warning">Update</a>
+                                    <a href="/deleteproduct/{{$addproduct->id}}" class="btn btn-danger">Delete</a>
+                                </th>
                             </tr>
-                            <tr>
-                                <td>
-                                    002
-                                </td>
-                                <td>
-                                    Coffee
-                                </td>
-                                <td>
-                                    Simple
-                                </td>
-                                <td>
-                                    Simple
-                                </td>
-                                <td>
-                                    Simple
-                                </td>
-                                <td class="text-right">
-                                    Simple
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    003
-                                </td>
-                                <td>
-                                    Coffee
-                                </td>
-                                <td>
-                                    Simple
-                                </td>
-                                <td>
-                                    Simple
-                                </td>
-                                <td>
-                                    Simple
-                                </td>
-                                <td class="text-right">
-                                    Simple
-                                </td>
-                            </tr>
+                                @endforeach
                             </tbody>
                         </table>
                     </div>
